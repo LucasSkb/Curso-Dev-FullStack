@@ -1,0 +1,31 @@
+
+.exemplo {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.exemplo1 .red {
+    color: red;
+
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 {
+    color: blue;
+}
+
+.exemplo2 > p { /* Simbolo > (maior) aplica o estilo a todos os filhos diretos da classe*/
+    color: blue;
+}
+
+.exemplo3 + p { /* Simbolo + (mais) aplica o estilo somente ao primeiro irmão direto da classe*/
+    color: red;
+}
+
+.exemplo4 ~ p { /* Simbolo ~ (til) aplica o estilo para todos os irmãos diretos da classe*/
+    color: green;
+}

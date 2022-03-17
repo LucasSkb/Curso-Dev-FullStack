@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+.header {
+    /*background-image: url("img/background.jpg");*/
+    background: #f5b6ec;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 17px;
+    font-family: 'Share Tech', sans-serif;
+    box-shadow: 0 0 20px black;
+}
+
+.header h2 {
+    font-size: 16px;
+    margin: 0 0 0 35px;
+}
+
+.logo {
+    width: 100px;
+}
+.logotittle{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 15px black;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.navbar {
+    width: 30%;
+    padding: 50px;
+    list-style-type: none;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: block;
+    background-color: black;
+    margin: 10px;
+    padding: 10px 50px;
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+    border-radius: 0 10px;
+    box-shadow: 0 0 5px #f0bee8;
+    
+}
+
+.content {
+    width: 90%;
+    margin: 20px 0 0 20px;
+    padding: 30px 30px 50px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px 30px 0 0;
+    box-shadow: -1px -1px 4px #f0bee8;
+}
+
+.content h1  {
+    margin-bottom: 10px;
+}
+
+.content h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgb(29, 29, 29);
+    padding: 10px 0;
+    text-align: center;
+    color: #f0bee8;
+
+}
+
+.serv {
+    display: flex;
+    margin-top: 25px;
+}
+
+.servimg {
+    width: 500px;
+    
+}
+
+.products {
+    margin-top: 25px;
+}
+
+.content a img {
+    width: 35px;
+}
+
+.content ul li a {
+    text-decoration-line: none;
+    color: #f0bee8;
+}
+
+.content ul li {
+    margin: 10px 0 10px 15px;
+    list-style: none;
+}
