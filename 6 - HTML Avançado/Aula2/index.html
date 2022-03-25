@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Avançado</title>
+    </head>
+    <body>
+        <form action="salvar.html" method="GET"> <!--Action serve para enviar os dados coletados para algum servidor, method seria qual o metodo vc quer usar para enviar os dados colotedos para o servidor (metodo POST é o mais indicado para enviar dados com senha)-->
+
+            <label>Digite o seu nome:</label> <!--Tag semantica Label serve para informar aos bots de pesquisa e o navegador que aquela informação é para fornecimento de dados-->
+            <input name="nome" type="text" placeholder="Digite o seu nome"> <!--Input são entradas de dados, placeholder são as escritas na caixa de digitaçao-->
+            
+            <br><br>
+
+            <label>Digite o seu email:</label>
+            <input name="email" type="email" placeholder="Digite o seu email"> <!--name seve para nomear cada campo de informações-->
+
+            <br><br>
+
+            <label>Digite uma senha:</label>
+            <input name="senha" type="password" placeholder="Digite uma senha">
+
+            <br><br>
+
+            <input type="file">
+
+            <br><br>
+
+            <label>Selecione a cor do seu nome:</label>
+            <input type="color">
+
+            <br><br>
+
+            <button>Enviar</button>
+
+        </form>
+    </body>
+    </html>
