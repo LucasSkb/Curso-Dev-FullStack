@@ -1,0 +1,11 @@
+
+
+
+
+
+
+img {
+    width: 700px; 
+    filter: blur(0px) grayscale(60%) brightness(170%);
+
+}

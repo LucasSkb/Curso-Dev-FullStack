@@ -1,0 +1,17 @@
+:root{
+    --color-primary: rgb(34, 210, 216); /* Variaveis para ser usados para facilitar reparos necessario no site*/
+    --color-secondary: rgb(37, 175, 32);
+}
+
+h1{
+    color: var(--color-primary);
+}
+
+p {
+    color: var(--color-secondary);
+}
+
+button {
+    background: var(--color-primary);
+    color: white;
+}

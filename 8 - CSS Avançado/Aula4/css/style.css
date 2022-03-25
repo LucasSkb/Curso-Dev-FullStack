@@ -1,0 +1,33 @@
+:root {
+    font-size: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 12px;
+}
+
+.box {
+    width: 100vw; /*viewport width e height para criar caixas de cores na div ocupando a tela toda (pode ser feito separaçao de sessões)*/
+    height: 95vh;
+    background-color: black;
+}
+
+.box2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.txt1 {
+    font-size: 2em; /* medida "em" serve para colocar a quantidade de vezes que o font size foi definido no elemento pai ("em" relativo ao font size)*/
+}
+
+.txt2 {
+    font-size: 2rem; /* medida "rem" serve para colocar a quantidade de vezes que o font size foi definido no root*/
+}
